@@ -1,0 +1,182 @@
+/* Reseta margens e paddings para todos os elementos, define box-sizing e fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+/* Estilo para o corpo da página */
+body {
+    padding-top: 100px;
+    /* Espaço no topo da página */
+    background-color: #e7e7e7;
+    /* Cor de fundo */
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    /* Alinha itens em uma linha */
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+    margin-bottom: 40px;
+    /* Espaçamento abaixo do cabeçalho */
+}
+
+header img {
+    height: 36px;
+    /* Altura da imagem */
+    margin-right: 16px;
+    /* Espaçamento à direita da imagem */
+}
+
+header h1 {
+    font-size: 40px;
+    /* Tamanho da fonte do título */
+    font-weight: bold;
+    /* Título em negrito */
+}
+
+/* Estilo do container principal para centralizar o conteúdo */
+.container {
+    max-width: 960px;
+    /* Largura máxima do container */
+    width: 100%;
+    /* Largura total disponível */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    /* Alinha campos e botão em linha */
+    max-width: 640px;
+    /* Largura máxima do formulário */
+    width: 100%;
+    justify-content: space-between;
+    /* Espaçamento entre os elementos */
+    margin-bottom: 56px;
+    /* Espaçamento inferior */
+}
+
+form input {
+    font-size: 24px;
+    /* Tamanho da fonte dos inputs */
+    background-color: #fff;
+    /* Fundo branco */
+    border: none;
+    /* Remove bordas padrão */
+    border-bottom: 2px solid #000;
+    /* Linha inferior preta */
+    padding: 8px;
+    /* Espaçamento interno */
+}
+
+form button {
+    background-color: #009432;
+    /* Fundo verde */
+    color: #fff;
+    /* Texto branco */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Texto em negrito */
+    border: none;
+    /* Remove bordas */
+    cursor: pointer;
+    /* Cursor pointer para indicar interatividade */
+    padding: 8px;
+    /* Espaçamento interno */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    /* Ocupa toda a largura do container */
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    /* Linha inferior preta */
+    padding: 16px;
+    /* Espaçamento interno */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Cabeçalhos em negrito */
+}
+
+table td {
+    padding: 16px 0;
+    /* Espaçamento interno nos itens da tabela */
+    text-align: center;
+    /* Centraliza o texto */
+    font-size: 22px;
+    /* Tamanho da fonte */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    /* Linha inferior cinza clara */
+}
+
+table td img {
+    height: 30px;
+    /* Altura das imagens de emoji */
+}
+
+/* Estilo geral para o span de resultado */
+.resultado {
+    padding: 8px;
+    /* Espaçamento interno */
+    font-weight: bold;
+    /* Texto em negrito */
+    color: #fff;
+    /* Texto branco */
+    background-color: #000;
+    /* Fundo preto */
+    border-radius: 3px;
+    /* Borda arredondada */
+}
+
+/* Estilo para spans de aprovação e reprovação */
+.aprovado {
+    background-color: #009432;
+    /* Fundo verde */
+}
+
+.reprovado {
+    background-color: red;
+    /* Fundo vermelho */
+}
+
+/* Estilo para o span de resultado aprovado */
+.resultadoAprovado {
+    background-color: #009432;
+    /* Fundo verde */
+    color: #fff;
+    /* Texto branco */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Texto em negrito */
+    border: none;
+    /* Sem borda */
+    padding: 8px;
+    /* Espaçamento interno */
+}
+
+/* Estilo para o span de resultado reprovado */
+.resultadoReprovado {
+    background-color: red;
+    /* Fundo vermelho */
+    color: #fff;
+    /* Texto branco */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Texto em negrito */
+    border: none;
+    /* Sem borda */
+    padding: 8px;
+    /* Espaçamento interno */
+}
